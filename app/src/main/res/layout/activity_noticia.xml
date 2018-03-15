@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boruto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000">
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Boruto | Continuação de Naruto ganha data e hora para estrear no Brasil "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="Crunchyroll passará o anime inédito no mesmo dia que a exibição japonesa "
+        android:textAlignment="viewStart"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView2"
+        android:text="Arthur Eloi"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView3"
+        android:textColor="@android:color/white"
+        android:text="Boruto: Naruto Next Generations, o anime que continuará Naruto ao acompanhar o filho do protagonista com Hinata Hyuga, ganhou data de estreia no Brasil e será exibido simultaneamente com o Japão pelo Crunchyroll em 5 de abril, às 18h25. A informação foi incialmente publicada pelo UOL Jogos." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="Que o serviço de streaming transmitirá a animação no país não é surpresa alguma, afinal o anúncio ocorreu em 23 de março, porém só agora a data e horário foram revelados. Além disso, é importante notar que a exibição será acompanhada do áudio original porém com legendas em português brasileiro." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView5"
+        android:text="29/03/2017 - 17:10"
+        android:textSize="8sp"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:scaleType="fitStart"
+        android:src="@drawable/autor" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginEnd="53dp"
+        android:layout_marginTop="91dp"
+        android:text="Arthur Eloi"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginEnd="25dp"
+        android:text="arthureloi@gmail.com"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:text="https://twitter.com/ArthurEloi115"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

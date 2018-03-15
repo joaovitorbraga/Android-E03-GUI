@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".load" />
+        <activity android:name=".noticia" />
+        <activity android:name=".previsao_tempo" />
+        <activity android:name=".formulario"></activity>
     </application>
 
 </manifest>
