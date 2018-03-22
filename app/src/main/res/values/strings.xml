@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">E03 - Layout</string>
+    <string name="nome">Nome</string>
+    <string name="comentario">Comentário</string>
+    <string name="btn">Enviar</string>
+    <string name="segunda">Segunda-Feira</string>
+    <string name="terca">Terça-Feira</string>
+    <string name="quarta">Quarta-Feira</string>
+    <string name="quinta">Quita-Feira</string>
+    <string name="sexta">Sexta-Feira</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
 </resources>

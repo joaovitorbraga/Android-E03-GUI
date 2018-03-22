@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="Segunda-Feira"
+                android:text="@string/segunda"
                 android:textColor="#FFF"
                 android:textSize="17dp" />
 
@@ -52,7 +52,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Terça-feira"
+                android:text="@string/terca"
                 android:textSize="17dp"
                 android:textColor="#FFF"
                 android:layout_margin="8dp"/>
@@ -78,7 +78,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Quarta-feira"
+                android:text="@string/quarta"
                 android:textSize="17dp"
                 android:textColor="#FFF"
                 android:layout_margin="8dp"/>
@@ -104,7 +104,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Quinta-feira"
+                android:text="@string/quinta"
                 android:textSize="17dp"
                 android:textColor="#FFF"
                 android:layout_margin="8dp"/>
@@ -129,7 +129,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sexta-feira"
+                android:text="@string/sexta"
                 android:textSize="17dp"
                 android:textColor="#FFF"
                 android:layout_margin="8dp"/>
@@ -154,7 +154,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sábado"
+                android:text="@string/sabado"
                 android:textColor="#FFF"
                 android:textSize="17dp"
                 android:layout_margin="8dp"/>
@@ -179,7 +179,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Domingo"
+                android:text="@string/domingo"
                 android:textSize="17dp"
                 android:textColor="#FFF"
                 android:layout_margin="8dp"/>
