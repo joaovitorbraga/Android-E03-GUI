@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cidade">
+
+
+    <TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true"
+            android:text="Konoha"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_margin="5dp">
+
+        </TextView>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Segunda-Feira"
+                android:textColor="#FFF"
+                android:textSize="17dp" />
+
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/nuvem"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 27ºC Min: 19ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terça-feira"
+                android:textSize="17dp"
+                android:textColor="#FFF"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sol"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 32ºC Min: 25ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quarta-feira"
+                android:textSize="17dp"
+                android:textColor="#FFF"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:src="@drawable/chuva"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 23ºC Min: 13ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quinta-feira"
+                android:textSize="17dp"
+                android:textColor="#FFF"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:src="@drawable/nuvem"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 25ºC Min: 20ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexta-feira"
+                android:textSize="17dp"
+                android:textColor="#FFF"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:src="@drawable/nuvem"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 26ºC Min: 18ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sábado"
+                android:textColor="#FFF"
+                android:textSize="17dp"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sol"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 30ºC Min: 22ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domingo"
+                android:textSize="17dp"
+                android:textColor="#FFF"
+                android:layout_margin="8dp"/>
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/nublado"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:text="Max: 24ºC Min: 18ºC"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+
+            <TextView />
+        </TableRow>
+
+    </TableLayout>
+
+
+</TableLayout>
