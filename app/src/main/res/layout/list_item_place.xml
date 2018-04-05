@@ -3,49 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    style="@style/lugarStyle">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/img_place_photo"
-        android:src="@drawable/ic_launcher_background"/>
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_place_distance"
+        android:layout_toStartOf="@+id/txt_place_description"
+        android:src="@drawable/konoha" />
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/img_place_photo"
-        android:layout_marginLeft="15dp"
-        android:textSize="20dp"
         android:id="@+id/txt_place_name"
-        android:text="Um lugar qualquer" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/txt_place_name"
-        android:layout_below="@id/txt_place_name"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/txt_place_distance"
+        android:text="Um lugar qualquer"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/txt_place_description"
-        android:text="Este é um lugar qualquer que serve alguma coisa" />
+        android:layout_width="460px"
+        android:layout_height="250px"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_place_name"
+        android:layout_marginTop="26dp"
+        android:text="Este é um lugar qualquer que serve alguma coisa"
+        android:textAlignment="center" />
 
     <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/img_place_photo"
-        android:layout_alignLeft="@id/txt_place_name"
-        android:layout_marginTop="10dp"
+        android:id="@+id/rating"
         style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/img_place_photo"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="11dp"
         android:isIndicator="true"
         android:numStars="5"
         android:rating="3"
         android:stepSize="0.5" />
 
     <TextView
+        android:id="@+id/txt_place_distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignBottom="@id/img_place_photo"
-        android:id="@+id/txt_place_distance"
+        android:layout_above="@+id/txt_place_name"
+        android:layout_alignParentEnd="true"
         android:text="0.4 KM" />
 </RelativeLayout>
